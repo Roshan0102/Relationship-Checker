@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Relationship Status</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Relationship Status Checker</h1>
+        <form onsubmit="return checkRelationship()" id="relationshipForm">
+            <label for="name1">Enter Name 1:</label>
+            <input type="text" id="name1" required>
+            <br>
+            <label for="name2">Enter Name 2:</label>
+            <input type="text" id="name2" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
